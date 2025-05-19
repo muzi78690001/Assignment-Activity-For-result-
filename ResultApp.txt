@@ -1,0 +1,21 @@
+My Third assignment
+
+Assignment Activity For Result
+
+To understand how to use startActivityForResult in an Android application to get results back from a started activity.
+
+•  The main activity where the user will initiate the secondary activity.
+•  The secondary activity where the user will input some data.
+
+• Add a button that, when clicked, starts SecondActivity using startActivityForResult.
+• Override the onActivityResult method to handle the result returned from SecondActivity.
+
+• Add an EditText for user input and a button to return the input data to MainActivity.
+• When the button is clicked, get the text from the EditText, create an Intent, put the text into the Intent as an extra, set the result using setResult, and finish the activity.
+
+• Use Kotlin for the implementation.
+• Implement proper error handling and input validation.
+• Use appropriate layouts and widgets to create a user-friendly interface.
+
+• Submit your project on GitHub and share the repository link.
+• Add a feature in SecondActivity to validate the input (e.g., non-empty, specific format) before sending it back to MainActivity.
